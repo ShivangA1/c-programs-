@@ -1,8 +1,14 @@
 #include<stdio.h>
 
 int main(){
-    int a=1;
-    int *c=&a;
-    printf("%d",&c);
+    int i=1;
+    while()
+    {
+        printf("%d",i++);
+        if(i>10)
+        {
+            break;
+        }
+    }
     return 0;
 }
